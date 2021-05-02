@@ -1,0 +1,36 @@
+body{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  h1{
+    color: black;
+    font-family:fantasy    ;
+    font-size: 300%;
+
+  }
+  #rcorners1 {
+    border-radius:50%;
+  }
+  #rcorners2 {
+     margin : 100px;
+   }
+h2{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  height: 30vh;
+  flex: 100%;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+  
+}
